@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time{
+    width: 200px;
+    height: 100px;
+    background-color: #3a4452;
+    margin-top: 0%;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+    
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background: linear-gradient(45deg, #bababa, #3a4452);
+   
+    
+}
+.calculate{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
+
+   
+    
+}
+input{
+    width: 320px;
+    max-width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 3px 14px rgba(red, green, blue, alpha);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    margin: 20px;
+    color: #fff;
+    
+    
+}
+input::placeholder{
+color: #fff;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: .8px .8px 15px rgba(255, 255, 255 );
+    cursor: pointer;
+    
+}
+.equal{
+    background: orangered;
+}
+.operator{
+    color: green;
+    font-size: 40px;
+
+}
+
+
+
+
+
+
+
